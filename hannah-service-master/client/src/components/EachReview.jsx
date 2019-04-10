@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from 'styled-components';
 import StarRatings from 'react-star-ratings';
 import ReviewActivity from './ReviewActivity.jsx'
 import style from '../sample.less';

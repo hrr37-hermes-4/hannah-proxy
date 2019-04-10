@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import styled from 'styled-components';
 import $ from 'jquery';
 import AppRouter from './router.jsx';
 import Reviews from './components/Reviews.jsx';
@@ -8,45 +7,6 @@ import RatingDetails from './components/RatingDetails.jsx';
 import Filter from './components/Filter.jsx'
 import AddReview from './components/AddReview.jsx'
 import style from './sample.less';
-
-// const Container = styled.div`
-//   float: left;
-//   width: 625px;
-//   padding-right: 10px;
-//   padding-left: 8px;
-// `;
-
-// const StyledLink = styled.a`
-//   color: #00635d;
-//   textDecoration: none;
-//   font-family: Lato, Helvetica Neue, Helvetica, sans-serif;
-//   cursor: pointer;
-//   &:hover {text-decoration: underline};
-//   display: inline-block;
-//   position: relative;
-//   flex-basis: 400px;
-// `;
-
-// const Search = styled.span`
-//   float: right;
-//   color: #333333;
-//   background: #FFFFFF;
-// `;
-
-// const SearchInput = styled.input`
-//   width: 130px;
-//   border: #DCD6CC 1px solid;
-//   border-radius: 3px;
-//   padding: 5px
-// `;
-
-// const Align = styled.div`
-//   display: flex;
-//   justify-content: space-between;
-//   padding: 0;
-//   margin: 10px;
-// `;
-
 
 class App extends React.Component {
   constructor(props) {

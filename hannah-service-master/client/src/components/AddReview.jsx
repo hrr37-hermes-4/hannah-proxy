@@ -1,6 +1,5 @@
 import React from 'react';
 import StarRatings from 'react-star-ratings';
-import styled from 'styled-components';
 import $ from 'jquery';
 import style from '../sample.less';
 
