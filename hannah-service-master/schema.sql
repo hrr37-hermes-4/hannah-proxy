@@ -9,7 +9,7 @@ USE bookshelf;
 --   PRIMARY KEY (id)
 -- );
 
-CREATE TABLE users (
+CREATE TABLE IF NOT EXISTS users (
   id INT NOT NULL AUTO_INCREMENT,
   username varchar(50) NOT NULL,
   avatar varchar(500),
@@ -17,7 +17,7 @@ CREATE TABLE users (
 );
 
 
-CREATE TABLE reviews (
+CREATE TABLE IF NOT EXISTS reviews (
   id int NOT NULL AUTO_INCREMENT,
   user_id INT,
   book_id INT,
