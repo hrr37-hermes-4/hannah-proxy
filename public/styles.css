@@ -1,0 +1,52 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #F4F1EA;
+  overflow: hidden;
+  color: #382110;
+}
+
+/* Style the links inside the navigation bar */
+.navlink {
+  font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
+  color: #382110;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  line-height: 30px;
+  padding: 0 30px;
+}
+
+.navlink a:hover {
+  background-color: #382110;
+  color: #FFFFFF;
+  line-height: 30px;
+}
+
+.navinput {
+  font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
+  float: left;
+  border: #DCD6CC 1px solid;
+  color: #333333;
+  resize: none;
+  background: #FFFFFF;
+  border-radius: 3px;
+  margin-top: 8px;
+  margin-left: 30px;
+  padding-left: 5px;
+  line-height: 30px;
+  width: 350px;
+}
+
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+.logo {
+  font-family: "Helvetica", sans-serif !important;
+  font-size: 30px !important;
+  font-weight: lighter !important;
+  color: #382110;
+}
+
