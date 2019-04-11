@@ -1,52 +1,50 @@
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: #F4F1EA;
-  overflow: hidden;
-  color: #382110;
+#mainContainer {
+  display: grid;
+  grid-template-columns: [col-start] auto [col1] 650px [col2] 340px [col3] auto [col-end];
+  grid-template-rows: [row-start] 100px [row1] auto [row2] auto [row3] 200px [row4] auto [row-end];
 }
 
-/* Style the links inside the navigation bar */
-.navlink {
-  font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
-  color: #382110;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  line-height: 30px;
-  padding: 0 30px;
+.mainInfoBlock {
+  grid-column-start: col1;
+  grid-column-end: col2;
+  grid-row-start: row1;
+  grid-row-end: row2;
+  justify-self: center;
 }
 
-.navlink a:hover {
-  background-color: #382110;
-  color: #FFFFFF;
-  line-height: 30px;
+.detailsBlock {
+  grid-column-start: col1;
+  grid-column-end: col2;
+  grid-row-start: row2;
+  grid-row-end: row3;
+  justify-self: end;
 }
 
-.navinput {
-  font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
-  float: left;
-  border: #DCD6CC 1px solid;
-  color: #333333;
-  resize: none;
-  background: #FFFFFF;
-  border-radius: 3px;
-  margin-top: 8px;
-  margin-left: 30px;
-  padding-left: 5px;
-  line-height: 30px;
-  width: 350px;
+.authorBlock {
+  grid-column-start: col2;
+  grid-column-end: col3;
+  grid-row-start: row2;
+  grid-row-end: row-end;
+  justify-self: start;
+  align-self: start;
 }
 
-
-/* Hide the link that should open and close the topnav on small screens */
-.topnav .icon {
-  display: none;
+.reviewsBlock {
+  grid-column-start: col1;
+  grid-column-end: col2;
+  grid-row-start: row4;
+  grid-row-end: row-end;
+  justify-self: center;
+  align-self: start;
 }
 
-.logo {
-  font-family: "Helvetica", sans-serif !important;
-  font-size: 30px !important;
-  font-weight: lighter !important;
-  color: #382110;
+.titleBlock {
+  color: #01a1dd;
+  grid-column-start: col1;
+  grid-column-end: col3;
+  grid-row-start: row-start;
+  grid-row-end: row1;
+  justify-self: center;
+  align-self: center;
+  font-weight: 600
 }
-

@@ -145,7 +145,7 @@ class App extends React.Component {
         </div>
         <hr />
         <br />
-        <div>
+        <div className={style.reviewContainer}>
           <Reviews
             rating={rating}
             ratedReviews={ratedReviews}

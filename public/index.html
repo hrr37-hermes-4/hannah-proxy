@@ -1,13 +1,60 @@
+
 <!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>BookShelf</title>
+
+</head>
+
+<body>
+  <div id='mainContainer' s>
+    <div class='titleBlock'>
+      <h1 style="font-family: Helvetica">
+        Go Ahead, Take a Book From Our <em>BookShelf</em>...
+      </h1>
+    </div>
+
+    <div class='mainInfoBlock'>
+      <div id='info'></div>
+    </div>
+
+    <div class='detailsBlock'>
+      <div id='details'></div>
+    </div>
+
+    <div class='authorBlock'>
+      <div id='authors'></div>
+    </div>
+
+    <div class='reviewsBlock'>
+      <div id='reviews'></div>
+    </div>
+
+  </div>
+
+  <script src="http://localhost:3002/bundle-info.js"></script>
+  <script src="http://localhost:3001/books/:id/bundle-details.js"></script>
+  <script src="http://localhost:3000/books/:id/bundle-authors.js"></script>
+  <script src="http://localhost:3003/books/:id/bundle-reviews.js"></script>
+</body>
+
+</html>
+
+
+
+
+<!-- <!DOCTYPE html>
 <html>
   <head>
     <title>Bookshelf</title>
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="styles.css"> -->
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
   <body>
-      <!-- <nav class="topnav navbar navbar-expand-lg navbar-light">
+      <nav class="topnav navbar navbar-expand-lg navbar-light">
           <a class="logo navbar-brand" style="color: #382110" href="#">book<strong>shelf</strong></a>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -35,7 +82,7 @@
         </nav>
 
 
-    <br> -->
+    <br>
     <div id="info"></div>
     <div id="details"></div>
     <div id="reviews"></div>
@@ -46,4 +93,4 @@
     <script src="http://localhost:3000/books/:id/bundle-authors.js"></script>
     <script src="http://localhost:3003/books/:id/bundle-reviews.js"></script>
   </body>
-</html>
+</html> -->

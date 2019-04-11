@@ -1,6 +1,6 @@
-CREATE DATABASE IF NOT EXISTS bookshelf;
+CREATE DATABASE IF NOT EXISTS gingerbookshelf;
 
-USE bookshelf;
+USE gingerbookshelf;
 
 CREATE TABLE IF NOT EXISTS books (
   id int NOT NULL AUTO_INCREMENT,

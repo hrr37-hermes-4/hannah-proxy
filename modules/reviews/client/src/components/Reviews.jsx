@@ -1,5 +1,6 @@
 import React from 'react';
 import EachReview from './EachReview.jsx';
+import style from '../sample.less';
 
 const Reviews = (props) => {
   const block = {

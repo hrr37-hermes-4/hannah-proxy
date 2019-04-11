@@ -1,6 +1,6 @@
-DROP DATABASE IF EXISTS books;
+DROP DATABASE IF EXISTS kazbooks;
 
-CREATE DATABASE books;
+CREATE DATABASE kazbooks;
 
 USE books;
 
