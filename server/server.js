@@ -15,7 +15,7 @@ app.use('/books/:id/details', proxy({ target: 'http://localhost:3001', changeOri
 app.use('/books/:id/authors', proxy({ target: 'http://127.0.0.1:3000', changeOrigin: true }));
 
 
-const PORT = 3005;
+const PORT = process.env.PORT || 8081;
 app.listen(PORT, () => {
   console.log(`listening on port ${PORT}`)
 });
