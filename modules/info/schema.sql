@@ -2,7 +2,7 @@ DROP DATABASE IF EXISTS kazbooks;
 
 CREATE DATABASE kazbooks;
 
-USE books;
+USE kazbooks;
 
 CREATE TABLE bookInfo (
   id INT NOT NULL AUTO_INCREMENT,

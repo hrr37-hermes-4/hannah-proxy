@@ -1,4 +1,6 @@
-CREATE DATABASE IF NOT EXISTS gingerbookshelf;
+DROP DATABASE IF EXISTS gingerbookshelf;
+
+CREATE DATABASE gingerbookshelf;
 
 USE gingerbookshelf;
 
